@@ -26,6 +26,7 @@ function guestAddTwo() {
   guestText.textContent = guestHomeText + 2
 }
 
+//reset home
 function guestAddThree() {
   let guestHomeText = +guestText.textContent
   guestText.textContent = guestHomeText + 3
