@@ -1,0 +1,118 @@
+/* Reset */
+
+@font-face {
+  font-family: "Cursed Timer ULiL"; /*a name to be used later*/
+  src: url(/assets/CursedTimerUlil-Aznm.ttf); /*URL to font*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Resuse  */
+.container {
+  max-width: 90%;
+  margin: 50px auto;
+}
+.container-content {
+  /* border: 2px solid red; */
+  max-width: 575px;
+  height: 385px;
+  display: flex;
+  background: #1b244a;
+}
+.home {
+  width: 50%;
+  height: 385px;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+}
+.guest {
+  width: 50%;
+  height: 385px;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  background: #080001;
+  width: 155px;
+  height: 120px;
+  /* border: 2px solid slateblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+.clock-heading {
+  font-size: 2.5rem;
+  color: #eeeeee;
+  font-family: Verdana;
+  font-weight: 700;
+  line-height: 35.89px;
+  text-align: center;
+}
+
+.clock-change {
+  width: 117px;
+  height: 120px;
+  font-size: 5.625rem;
+  color: #f94f6d;
+  font-family: Cursed Timer ULiL;
+  font-weight: 400;
+  line-height: 126.67px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-btn {
+  /* width: 155px;
+  height: 45px; */
+  /* border: 2px solid seagreen; */
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-decor {
+  color: #9aabd8;
+  background: #1b244a;
+  outline: none;
+  border: 2px solid #9aabd8;
+  font-family: Cursed Timer ULiL;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 27.81px;
+  text-align: center;
+}
+
+/* Button reset */
+.btn-reset {
+  width: 155px;
+  height: 35px;
+  background: #f94f6d;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #eeeeee;
+  font-size: 1.125rem;
+  font-weight: 300;
+}

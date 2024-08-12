@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="container-content">
+        <div class="home">
+          <h2 class="clock-heading">Home</h2>
+          <div class="clock">
+            <h1 class="clock-change home-text">11</h1>
+          </div>
+          <div class="clock-btn">
+            <button class="btn-decor add-1" onclick="homeAddOne()">+1</button>
+            <button class="btn-decor add-2" onclick="homeAddTwo()">+2</button>
+            <button class="btn-decor add-2" onclick="homeAddThree()">+3</button>
+          </div>
+          <button class="home-btn-reset btn-reset" onclick="resetForHome()">Reset</button>
+        </div>
+        <div class="guest">
+          <h2 class="clock-heading">Guest</h2>
+          <div class="clock">
+            <h1 class="clock-change guest-text">23</h1>
+          </div>
+          <div class="clock-btn">
+            <button class="btn-decor add-1" onclick="guestAddOne()">+1</button>
+            <button class="btn-decor add-2" onclick="guestAddTwo()">+2</button>
+            <button class="btn-decor add-2" onclick="guestAddThree()">+3</button>
+          </div>
+          <button class="guest-btn-reset btn-reset" onclick="resetForGuest()">Reset</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
